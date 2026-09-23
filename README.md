@@ -19,6 +19,7 @@ Self-hosted tools for Plex and the \*arr stack, plus Docker images.
 | Project | What it is | Docker |
 | --- | --- | --- |
 | [EasyHDR](https://github.com/edbfi/EasyHDR) | Windows tray app. Turns HDR on when a configured app starts, and off when it closes | — |
+| [mover-status](https://github.com/edbfi/mover-status) | Monitors Unraid Mover progress and sends notifications | — |
 | [obzorarr](https://github.com/edbfi/obzorarr) | Year in review for Plex — "Spotify Wrapped", as a story-mode slideshow or a scrollable recap. Reads the Plex API, no Tautulli | [obzorarr-docker](https://github.com/edbfi/obzorarr-docker) |
 
 ## Functional, but WIP
@@ -27,7 +28,9 @@ Expect breaking changes.
 
 | Project | What it is | Docker |
 | --- | --- | --- |
+| [docrewind](https://github.com/edbfi/docrewind) | Browser extension that reconstructs and replays the revision history of a Google Doc, locally. No backend, account, or telemetry | — |
 | [otpravkarr](https://github.com/edbfi/otpravkarr) | Provisions Plex users into [Dispatcharr](https://github.com/Dispatcharr/Dispatcharr) and serves each user their own IPTV credentials and playlist | [otpravkarr-docker](https://github.com/edbfi/otpravkarr-docker) |
+| [setun](https://github.com/edbfi/setun) | Self-hosted AI learning environment for classrooms. Students use pseudonymous access cards; educators control models, tools, schedules, and budgets | — |
 | [zondarr](https://github.com/edbfi/zondarr) | Invite and user manager for Plex and Jellyfin, an alternative to Wizarr. Wizard steps around the invite: clicks, timers, ToS, text input, quizzes | [zondarr-docker](https://github.com/edbfi/zondarr-docker) |
 
 ## WIP, not yet functional
@@ -36,7 +39,6 @@ Expect breaking changes.
 | --- | --- |
 | [comradarr](https://github.com/edbfi/comradarr) | Finds missing or upgradeable content across Sonarr, Radarr, and Whisparr, then requests it |
 | [zimuarr](https://github.com/edbfi/zimuarr) | Subtitle translation for Bazarr. A translation is provably complete, or it did not happen |
-| [mover-status](https://github.com/edbfi/mover-status) | Monitors Unraid Mover progress and sends notifications |
 
 ## Homebrew taps
 
@@ -69,4 +71,4 @@ docker pull ghcr.io/edbfi/<image>
 
 ---
 
-<sub>Last edited: 2026-09-12</sub>
+<sub>Last edited: 2026-09-23</sub>
