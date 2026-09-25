@@ -15,8 +15,8 @@ This is the `edbfi/edbfi` GitHub profile repo: `README.md` renders publicly on g
 - To add an image, copy an existing `<picture>` block from `README.md`. It needs both the `media="(prefers-color-scheme: ...)"` attribute and the `#gh-dark-mode-only` / `#gh-light-mode-only` fragment, and the `<img>` fallback uses the light fragment. Use `raw.githubusercontent.com` URLs, not `github.com/.../blob/...`, which return an HTML page instead of the image.
 - Keep the stats images bare, with no wrapping `<a>` and no attribution text under them. Both were removed on purpose (`5a029ba`, `6300e83`).
 - Update the `<sub>Last edited: YYYY-MM-DD</sub>` footer in `README.md` by hand, in the same commit as any README content change. Nothing enforces this.
-- `edbfi/automation` is pinned at one version in five places: `renovate.json` (`#v3.0.1`), `.github/workflows/ci.yml` (three `uses:`), and `.github/workflows/pr-policy.yml`. `CI.md` also names it. Leave the bumps to Renovate. For a manual bump, change all of them together.
-- Shared Renovate policy lives in the `edbfi/automation` preset that `renovate.json` extends. Make fleet-wide changes there. The keys in this repo's `renovate.json` only set how this repo merges.
+- `edbfi/automation` is pinned at one version in four places: `renovate.json` (the `default.json` and `automerge.json` presets, `#v4.0.0`), `.github/workflows/ci.yml` (the gate `uses:`), and `.github/workflows/pr-policy.yml`. `CI.md` also names it. Leave the bumps to Renovate. For a manual bump, change all of them together.
+- Shared Renovate policy lives in the `edbfi/automation` presets that `renovate.json` extends. Make fleet-wide changes there. The shared `automerge.json` preset sets how this repo merges.
 - PR policy (`.github/workflows/pr-policy.yml`) requires a Conventional Commit PR title and a matching author sign-off, so commit with `git commit -s`.
 
 ## Reference
