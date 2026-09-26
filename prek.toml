@@ -4,7 +4,7 @@
 
 minimum_prek_version = "0.3.2"
 default_install_hook_types = ["pre-commit", "commit-msg"]
-default_stages = ["pre-commit"]
+default_stages = ["pre-commit", "manual"]
 
 # Builtin hooks — fast, offline, Rust-native
 [[repos]]
