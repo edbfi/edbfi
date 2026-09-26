@@ -6,7 +6,7 @@ This is the `edbfi/edbfi` GitHub profile repo: `README.md` renders publicly on g
 
 ## Commands
 
-- Full local check (same as CI, which also runs `git diff --exit-code HEAD` after it): `SKIP=no-commit-to-branch prek run --all-files`
+- Full local check: `SKIP=no-commit-to-branch prek run --all-files`
 - Without `SKIP`, the `no-commit-to-branch` hook fails on `main`. Once hooks are installed (`prek install`), it also blocks commits to `main`; do the work on a branch and open a PR instead.
 
 ## Gotchas

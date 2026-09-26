@@ -42,7 +42,7 @@ Expect breaking changes.
 
 ## Homebrew taps
 
-One tap, [homebrew-taps](https://github.com/edbfi/homebrew-taps), for macOS apps that homebrew-cask does not carry. A workflow checks upstream every 6 hours, re-hosts the release there, proposes cask updates for full CI and manual review, and appends a VirusTotal report when configured.
+One tap, [homebrew-taps](https://github.com/edbfi/homebrew-taps), for macOS apps that homebrew-cask does not carry. Each cask re-hosts the upstream release on the tap's own releases; updates are prepared with the tap's pipeline scripts and proposed as pull requests for review.
 
 | App | Install |
 | --- | --- |
@@ -71,4 +71,4 @@ docker pull ghcr.io/edbfi/<image>
 
 ---
 
-<sub>Last edited: 2026-09-23</sub>
+<sub>Last edited: 2026-09-26</sub>
