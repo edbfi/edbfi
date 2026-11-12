@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/svg/edbfi-logo.svg" alt="edbfi logo" width="256" height="256">
+  <img src="assets/svg/edbfi-logo.svg" alt="edbfi logo" width="160" height="160">
 </p>
 
 <h1 align="center">edbfi</h1>
@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/edbfi/edbfi/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-AGPL--3.0-blue?style=flat" alt="License: AGPL-3.0"></a>
+  <a href="https://github.com/edbfi/edbfi/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-AGPL--3.0--or--later-blue?style=flat" alt="License: AGPL-3.0-or-later"></a>
 </p>
 
 <!-- Logo copied verbatim from edbfi/repo-patches at cf9cf0d625c8c7b02982c6453d899c1c2c0fb1a6: hweb-content/assets/img/edbfi.svg. -->
@@ -82,6 +82,12 @@ docker pull ghcr.io/edbfi/<image>
 | [qbittorrent](https://github.com/edbfi/qbittorrent) | libtorrent v2 by default, plus the themes hotio dropped (VueTorrent) |
 | [qflood](https://github.com/edbfi/qflood) | jesec's flood + qBittorrent, libtorrent v2 by default. hotio archived his |
 | [sabnzbd](https://github.com/edbfi/sabnzbd) | SABnzbd with `ffprobe`, for post-processing scripts |
+
+## License
+
+Original code and configuration authored by edbfi in this repository may be redistributed and/or modified under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version (`AGPL-3.0-or-later`). See [LICENSE](LICENSE) for the full license text.
+
+Third-party material, externally generated statistics, and artwork retain their existing licenses and attribution notices, including the MIT-licensed PhrozenByte workflow immortality script referenced by the keepalive workflow.
 
 ---
 
