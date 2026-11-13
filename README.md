@@ -10,6 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/edbfi/edbfi/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-AGPL--3.0--or--later-blue?style=flat" alt="License: AGPL-3.0-or-later"></a>
+  <a href="https://github.com/edbfi/edbfi/actions/workflows/ci.yml?query=branch%3Amain"><img src="https://img.shields.io/github/actions/workflow/status/edbfi/edbfi/ci.yml?branch=main&amp;event=push&amp;label=CI&amp;style=flat" alt="CI"></a>
 </p>
 
 <!-- Logo copied verbatim from edbfi/repo-patches at cf9cf0d625c8c7b02982c6453d899c1c2c0fb1a6: hweb-content/assets/img/edbfi.svg. -->
